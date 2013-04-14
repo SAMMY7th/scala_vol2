@@ -2,8 +2,8 @@
  * Author: asami
  * Date: 13/04/13
  */
-//class Programer(n : String, l : Person, fl: String) extends Person(n, l) with SweetsJunkie  {
-class Programer(n : String, l : Person, fl: String) extends Person(n, l) {
+//class Programmer(n : String, l : Person, fl: String) extends Person(n, l) with SweetsJunkie  {
+class Programmer(n : String, l : Person, fl: String) extends Person(n, l) {
   var favoriteLang = fl
 
   def this(n : String, l : Person) = this(n, l, null)
